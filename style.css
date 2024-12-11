@@ -20,14 +20,18 @@ body {
     padding: 20px;
 }
 
-/* Barra de pesquisa */
+/* Barra de pesquisa e filtro */
 .search-bar {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre a pesquisa e o filtro */
+    align-items: center;
     margin-top: 20px;
 }
 
-.search-bar input {
-    width: 80%;
+/* Estilo para o campo de pesquisa */
+.search-bar input[type="text"] {
+    width: 70%;
     max-width: 400px;
     padding: 10px;
     font-size: 16px;
@@ -36,7 +40,22 @@ body {
     outline: none;
 }
 
-.search-bar input:focus {
+.search-bar input[type="text"]:focus {
+    border-color: #333;
+}
+
+/* Estilo para o filtro de ordenação */
+.search-bar select {
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+}
+
+.search-bar select:focus {
     border-color: #333;
 }
 

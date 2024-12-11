@@ -1,29 +1,28 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Camiseta Básica",
-        "price": 0.00,
-        "imageUrl": "https://via.placeholder.com/200x200?text=Camiseta+Básica"
-      },
-      {
-        "id": 2,
-        "name": "Calça Jeans",
-        "price": 0.00,
-        "imageUrl": "https://via.placeholder.com/200x200?text=Calça+Jeans"
-      },
-      {
-        "id": 3,
-        "name": "Tênis Esportivo",
-        "price": 0.00,
-        "imageUrl": "https://via.placeholder.com/200x200?text=Tênis+Esportivo"
-      },
-      {
-        "id": 4,
-        "name": "Jaqueta de Couro",
-        "price": 0.00,
-        "imageUrl": "https://via.placeholder.com/200x200?text=Jaqueta+de+Couro"
-      }
-    ]
-  }
-  
+  "products": [
+    {
+      "id": 1,
+      "name": "Camiseta Básica",
+      "price": 0.00,
+      "imageUrl": "https://via.placeholder.com/200x200?text=Camiseta+Básica"
+    },
+    {
+      "id": 2,
+      "name": "Calça Jeans",
+      "price": 0.00,
+      "imageUrl": "https://via.placeholder.com/200x200?text=Calça+Jeans"
+    },
+    {
+      "id": 3,
+      "name": "Tênis Esportivo",
+      "price": 0.00,
+      "imageUrl": "https://via.placeholder.com/200x200?text=Tênis+Esportivo"
+    },
+    {
+      "id": 4,
+      "name": "Jaqueta de Couro",
+      "price": 0.00,
+      "imageUrl": "https://via.placeholder.com/200x200?text=Jaqueta+de+Couro"
+    }
+  ]
+}

@@ -8,9 +8,14 @@
 </head>
 <body>
 
-    <!-- Barra de Pesquisa -->
+    <!-- Barra de Pesquisa e Filtro -->
     <div class="search-bar">
         <input type="text" id="searchInput" placeholder="Pesquisar produtos..." />
+        <select id="filterSelect">
+            <option value="nome">Ordenar por Nome</option>
+            <option value="valor_mais_baixo">Ordenar por Valor (Menor para Maior)</option>
+            <option value="valor_mais_alto">Ordenar por Valor (Maior para Menor)</option>
+        </select>
     </div>
 
     <!-- Seção de Produtos -->
@@ -19,7 +24,6 @@
             <section class="produtos">
                 <h2>Produtos em Destaque</h2>
                 <div id="productsContainer"></div>
-                <!-- Contador de produtos - agora depois dos produtos -->
                 <p id="productCount">Total de Produtos: 0</p>
             </section>
         </div>
@@ -28,4 +32,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
